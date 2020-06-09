@@ -1,41 +1,90 @@
-  
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Octavian Hotel| Rooms</title>
+  <head>
+    <title>Octavian Hotel| Rooms</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!--  Header goes in here -->
+    <div class="header"></div>
 
-</head>
-<body>
+    <!-- Contact us  -->
+    <section id="contact_us">
+      <div class="container">
+        <form>
+          <div class="row">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                id="firstname"
+                name="firstname"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                id="lastname"
+                name="lastname"
+                placeholder="Last Name"
+              />
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Email"
+              />
+            </div>
+            <br />
+          </div>
+          <div class="row">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                id="subject"
+                name="subject"
+                placeholder="Subject"
+              />
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col">
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+                placeholder="Message"
+                rows="6"
+              ></textarea>
+            </div>
+          </div>
+          <br />
+          <button type="submit" style="float: right;" class="btn btn-warning">
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
 
- <!--  Header goes in here -->
-<div class="header">
-</div>
-
-<!-- Contact us  -->
-<section id ="contact_us">
-  <form >
-    
-    <input type="text" id="fname" name="firstname" placeholder="First Name">
-    <br/>
-
-    <input type="text" id="lname" name="lastname" placeholder="Last Name" >
-    <br/>
-
-    <input type="text" id="email" name="email" placeholder="Email">
-    <br/>
-
-    <input type="text" id="subject" name="subject" placeholder="Subject">
-    <br/>
-
-    <textarea id="message" name="message" placeholder="Message"></textarea>
-    <br/>
-
-    <input type="submit" value="Send">
-
-  </form>
-</section>
-
-<!-- Footer goes in here -->
-<footer></footer>
-</body>
+    <!-- Footer goes in here -->
+    <footer></footer>
+  </body>
 </html>
